@@ -6,10 +6,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class User extends Model
+class Company extends Model
 {
-    protected $fillable = ['name'];
-
     use HasFactory;
 
     public function tasks(): HasMany
